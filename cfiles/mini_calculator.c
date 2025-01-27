@@ -40,7 +40,7 @@ int main() {
                 result = divide(num1, num2);
                 printf("Result: %.2f / %.2f = %.2f\n", num1, num2, result);
             } else {
-                printf("Error: Division by zero is not allowed.\n");
+                printf("Error: Division by zero is not allowed.\n"); // error handling
             }
             break;
         default:
